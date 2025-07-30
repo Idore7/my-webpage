@@ -3,179 +3,359 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>My Personal webpage</title>
+
+          <link href="./my webpage.css" rel="stylesheet"> 
+<!-- font awesome -->
     <script src="https://kit.fontawesome.com/8f8346a8ca.js" crossorigin="anonymous"></script>
-    <link href="./my webpage.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+      <!-- box icons -->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
   </head>
 
-  <body>
-   <!-- this is the heading -->
-      <header>
-        <h1>Hello </h1>
-        <p>I am a web developer</p>
+  <body >
+
+   <!-- header design -->
+      <header class="header" id="header" >
+        <a href="#" class="logo">Hope.. <span class="animate" style="--i:2"></span></a>
+
+<div class="bx bx-menu" id="menu-icon"></div>
+
+<nav class="nav-bar">
+  <a href="#home">Home</a>
+
+  <a href="#about">About</a>
+
+  <a href="#education">Education</a>
+
+  <a href="#skills">Skills</a>
+
+  <a href="#contact">Contact</a>
+
+  <span class="active-nav"></span>
+  <span class="animate" style="--i:2"></span>
+</nav>
       </header>
 
-      <!-- the main content begins here -->
-<main>
+     
 
- <!-- section one -->
-  <section>
-<div class="section-one">
+<!-- home section design -->
+ <section class="home" id="home">
 
-<!-- about me-->
-<div class="about-me">
- <h3>About Me </h3>
- <p>I am a beginner programmer with a good knowledge of some front-end techniques. i am hoping to learn and grow as i continue on this path.</p>
+<!-- this is where home content begins -->
+<div class="home-content">
+  <h1>Hi, i'm <span>Hope Bassey</span></h1>
+
+<div class="text-animate">
+
+<h3>Frontend Developer</h3>
+  <!-- closing for text animate -->
 </div>
 
-<!--profile-image-->
-<div class="profile-image">
- <img src="./profile image 2.jpg" alt="profile image">
+<p>I believe that changing your Mindset changes your Life</p>
+
+<div class="btn-box">
+  <a href="#" class="btn">Let's Talk</a>
 </div>
 
-<!-- here are my details-->
-<div class="details-container">
-
-  <!-- heading for details -->
-   <div class="details-heading">
-<H3>  Details </H3>
+  <!-- closing for home content -->
 </div>
-<!-- only details -->
-<div class="only-dets">
-<!-- details paragraph -->
- <div class="details-para">
-<p class="word">Name: <span>Hope Bassey</span></p>
-</div>
+<!-- 
+<div class="side-picture">
+  <img src="./baackground.jpg" alt="background">
+</div> -->
+ </section> 
 
+<!-- about section design -->
+<section class="about" id="about">
 
- <div class="details-para">
-<p class="word">age: <span>28</span></p>
-</div>
+<h2 class="heading">About <span>Me</span></h2>
 
-
- <div class="details-para">
-<p class="word">Location:  <span>Port Harcourt</span></p>
-</div>
-
-<!-- closing for only dets -->
-</div>
-<!-- closing for details-->
+<div class="about-img">
+  <img src="./profile image.jpg" alt="my picture">
+  <span class="circle-spin"></span>
 </div>
 
 
- <!-- closingg for section one -->
+<div class="about-content">
+  <h3>Frontend Developer!</h3>
+
+  <p>I am a dedicated and committed individual still finding her feet in the tech space, i am currently figuring out javaScript so i can move to react soon.</p>
+
+  <div class="btn-box">
+    <a href="#" class="btn">Read More</a>
+  </div>
 </div>
+
 </section>
 
-<!-- section 2 starts here-->
- <section>
-<!-- video container -->
-<div class="video-container">
-<video  autoplay muted loop>
-  <source src="./background video.mp4" type="video/mp4">
-</video>
 
+<!-- education section design -->
+<section class="education" id="education">
+<h2 class="heading">My <span>Journey</span></h2>
 
-<!-- text overlay -->
- <div class="text-overlay">
-<p>"If debugging is the process of removing software bugs, then programming must be the process of putting them in."
-  — Edsger W. Dijkstra
-</p>
-<!-- closing for text overlay -->
-</div>
-  <!-- closing for video container -->
-</div>
+<div class="education-row">
 
- </section>
+  <div class="education-column">
 
+<h3 class="title">Education</h3>
 
+<div class="education-box">
 
-<!-- skills section-->
- <section class="skills-section">
+  <div class="education-content">
 
-  <div class="text">
-<h3 class="skills">My Skills</h3>
-</div>
+    <div class="content">
 
-<!-- tables-->
- <div class="tables">
+<div class="year"><i class='bx  bx-calendar-alt'  >2017 - 2024</i> </div>
+<h3>Bachelor's Degree  - University of Port Harcourt</h3>
+<p> B.tech in Biochemistry and Chemistry Technology</p>
+      <!-- closing for content -->
+    </div>
 
-<table>
-<tr>
-    <th>Skills Name</th>
-    <th>Skill Level</th>
-  </tr>
-  <tr>
-    <td>HTML</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>CSS</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>JavaScript</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Design</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>Airdrop Farming</td>
-    <td>5</td>
-  </tr>
-
-</table>
-
-<!-- closing for table container-->
- </div>
-
-
-
- </section>
-
-
-</main>
-
-<footer>
-
-  <!-- one div for the two  -->
-<div class="one-holder">
-
-  <div class="contact">
-  <h3>Contact Me</h3>
-</div>
-
- <!-- form and details-->
-  <div class="form-container">
-
-<form action="">
-
- <!-- name-->
-  <div class="boxes">
-<label for="name" >Name</label>
-<input type="text"  name="username"  placeholder="Enter your name" >
-
+<!-- closing for education content -->
   </div>
 
 
-<!-- email-->
-   <div class="boxes">
-<label for="email">Email</label>
-<input type="text"" name="Email"  placeholder="Enter your Email">
+  <div class="education-content">
 
+    <div class="content">
+
+<div class="year"><i class='bx  bx-calendar-alt'  >2017 - 2024</i> </div>
+<h3>Bachelor's Degree  - University of Port Harcourt</h3>
+<p> B.tech in Biochemistry and Chemistry Technology</p>
+      <!-- closing for content -->
+    </div>
+
+<!-- closing for education content -->
   </div>
 
-<!-- type anything else here-->
- <textarea name="note" id="type" name="type" ></textarea>
+  <div class="education-content">
 
-<button>Submit</button>
+    <div class="content">
+
+<div class="year"><i class='bx  bx-calendar-alt'  >2007 - 2013</i> </div>
+<h3>SSCE - Mary Hanney Secondary School</h3>
+<p> i got my west African Examination Certificate and National Examination Council Certificate.</p>
+      <!-- closing for content -->
+    </div>
+
+<!-- closing for education content -->
+  </div>
+
+  <!-- closing for education box -->
+</div>
+    <!-- closing for education column -->
+  </div>
+
+  <div class="education-column">
+
+    <h3 class="title">Experience</h3>
+    
+    <div class="education-box">
+    
+      <div class="education-content">
+    
+        <div class="content">
+    
+    <div class="year"><i class='bx  bx-calendar-alt'  > 2025</i> </div>
+    <h3> Junior Web Developer - company</h3>
+    <p> finding my foot in javaScript .</p>
+          <!-- closing for content -->
+        </div>
+    
+    <!-- closing for education content -->
+      </div>
+    
+    
+      <div class="education-content">
+    
+        <div class="content">
+    
+    <div class="year"><i class='bx  bx-calendar-alt'  >2017 - 2024</i> </div>
+    <h3>Junior Web Developer - company</h3>
+    <p> I will eventually start filling the space when i start working</p>
+          <!-- closing for content -->
+        </div>
+    
+    <!-- closing for education content -->
+      </div>
+    
+      <div class="education-content">
+    
+        <div class="content">
+    
+    <div class="year"><i class='bx  bx-calendar-alt'  >2007 - 2013</i> </div>
+    <h3>Junior Web Developer - company</h3>
+    <p> e no really easy ooo but we go dey alright. i will write something better i promise not just right now.</p>
+          <!-- closing for content -->
+        </div>
+    
+    <!-- closing for education content -->
+      </div>
+    
+      <!-- closing for education box -->
+    </div>
+        <!-- closing for education column -->
+      </div>
+
+
+
+
+  <!-- closing for education row -->
+</div>
+
+
+</section>
+
+
+<!-- skill section design -->
+<section class="skills" id="skills">
+
+<h2 class="heading">My <span>Skills</span></h2>
+
+<div class="skills-row">
+  <div class="skill-column">
+
+<h3 class="title">Coding Skills</h3>
+
+<div class="skill-box">
+
+  <div class="skills-content">
+<div class="progress">
+  <h3>HTML <span>90%</span></h3>
+<div class="bar"><span></span></div>
+
+</div>
+
+<div class="progress">
+  <h3>CSS <span>70%</span></h3>
+<div class="bar"><span></span></div>
+
+</div>
+
+
+<div class="progress">
+  <h3>javaScript <span>30%</span></h3>
+<div class="bar"><span></span></div>
+
+</div>
+
+<div class="progress">
+  <h3>React <span>10%</span></h3>
+<div class="bar"><span></span></div>
+
+</div>
+
+    <!-- closing for skills content -->
+  </div>
+
+  <!-- closing for skill box -->
+</div>
+
+  <!-- closing for skills column -->
+</div>
+
+<div class="skill-column">
+
+  <h3 class="title">Professional Skills</h3>
+  
+  <div class="skill-box">
+  
+    <div class="skills-content">
+  <div class="progress">
+    <h3>Web Design <span>90%</span></h3>
+  <div class="bar"><span></span></div>
+  
+  </div>
+  
+  <div class="progress">
+    <h3>Web Development <span>40%</span></h3>
+  <div class="bar"><span></span></div>
+  
+  </div>
+  
+  
+  <div class="progress">
+    <h3>Video Editing<span>40%</span></h3>
+  <div class="bar"><span></span></div>
+  
+  </div>
+  
+  <div class="progress">
+    <h3>Social Media Management <span>45%</span></h3>
+  <div class="bar"><span></span></div>
+  
+  </div>
+  
+      <!-- closing for skills content -->
+    </div>
+  
+    <!-- closing for skill box -->
+  </div>
+  
+    <!-- closing for skills column -->
+  </div>
+
+
+<!-- closing for skill-row -->
+</div>
+
+
+
+</section>
+
+<!-- contact section design -->
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+
+  <form action="">
+<div class="input-box">
+<div class="input-field">
+  <input type="text" placeholder="Full Name" required >
+<span class="focus"></span>
+</div>
+
+<div class="input-field">
+  <input type="text" placeholder="Email Address" required >
+<span class="focus"></span>
+</div>
+
+
+  <!-- closing for input box -->
+</div>
+
+
+<div class="input-box">
+  <div class="input-field">
+    <input type="number" placeholder="Mobile Number" required >
+  <span class="focus"></span>
+  </div>
+  
+  <div class="input-field">
+    <input type="text" placeholder="Email Subject" required >
+  <span class="focus"></span>
+  </div>
+  
+    <!-- closing for input box -->
+  </div>
+
+  <div class="textarea-field">
+    <textarea name="" id="" placeholder="Your Message" required></textarea>
+    <span class="focus"></span>
+  </div>
+
+  <div class="btn-box">
+    <button type="submit" class="btn">Submit</button>
+  </div>
 
 </form>
+</section>
 
-   <!-- closing for form container-->
-  </div>
+<!-- footer design -->
+<footer class="footer">
 
 
 <!-- social links -->
@@ -188,19 +368,19 @@
   <div class="social-icons">
 
     <div class="social">
-    <a href="https://www.facebook.com/share/16fewBA4p4/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook"></i>  Hope Bassey</a>
+    <a href="https://www.facebook.com/share/16fewBA4p4/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
     </div>
 
     <div class="social">
-    <a href="https://twitter.com/idore_b" target="_blank"><i class="fab fa-twitter"></i>  @idore_b</a>
+    <a href="https://twitter.com/idore_b" target="_blank"><i class="fab fa-twitter"></i></a>
 </div>
 
 <div class="social">
-    <a href="https://instagram.com/i.am.idore" target="_blank"><i class="fab fa-instagram"></i>  i.am.idore</a>
+    <a href="https://instagram.com/i.am.idore" target="_blank"><i class="fab fa-instagram"></i></a>
 </div>
 
 <div class="social">
-    <a href="https://www.linkedin.com/in/hope-bassey-753324169?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i>  hope-etim-bassey</a>
+    <a href="https://www.linkedin.com/in/hope-bassey-753324169?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i> </a>
 </div>
 
 
@@ -211,16 +391,22 @@
   <!-- closing for social links -->
    </div>
 
-   <!-- closing for one holder -->
-</div>
-
    <!-- copyright -->
-    <div class="copyright">
-  <p>&copy; 2025.  All rights reserved.</p>
+    <div class="footer-text-icon">
+    <div class="footer-text">
+  <p>CopyRight &copy; 2025 |  All rights reserved.</p>
 </div>
 
+<div class="iconTop">
+  <a href="#"><span class="dot"><i class="fa-solid fa-arrow-up"></i></span></a>
+</div>
+
+
+<!-- closing for footer-text icon -->
+</div>
 </footer>
 
+<script src="./practice.js"></script>
 
   </body>
 </html>
